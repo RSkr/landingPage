@@ -10,7 +10,7 @@ HEADER
 ***********/
 
 .bg-header {
-    background-image: url("images/headerPhoto.jpeg");
+    background-image: url("./images/headerPhoto.jpeg");
     color: #ffffff;
     text-align: center;
     padding-top: 30px;
@@ -239,7 +239,7 @@ PROJECTS
 }
 
 .projectTrip{
-    background-image: url(images/projects/tripplan.jpg);
+    background-image: url(./images/projects/tripplan.jpg);
     background-size: cover;
 
 }
