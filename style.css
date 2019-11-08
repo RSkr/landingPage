@@ -58,17 +58,32 @@ ABOUT ME
     color: #0000ff;
 }
 
-.aboutMeBox {
-    position: relative;
-    box-sizing: content-box;
-    background-color: white;
-    padding: 1rem 2rem;
-    margin: 1rem 1rem;
-    float: left;
-    
-    
+.aboutMeBox{
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+        margin: 1rem 1rem;
+        -webkit-columns: 3 300px;
+        -moz-columns: 3 300px;
+        columns: 3 300px;
+        -webkit-column-rule-color: #5015af;
+        -moz-column-rule-color: #5015af;
+        column-rule-color: #5015af;
+        -webkit-column-rule-width: 5px;
+        -moz-column-rule-width: 5px;
+        column-rule-width: 5px;
+        -webkit-column-gap: 5em;
+        -moz-column-gap: 5em;
+        column-gap: 5em;
+        margin: 2px auto 5px;
+        -webkit-column-rule-style: dotted;
+        -moz-column-rule-style: dotted;
+        column-rule-style: dotted;
+        text-align: center;
+        background-color: #ffffff;
+        line-height: 2em;
 }
-.column {
+
+.column3 {
     position: relative;
     float: left;
     width: 29%;
@@ -292,13 +307,14 @@ PROJECTS
     padding: 1rem 1 rem;
 }
 
-.carousel-inner > .carousel-item > img{
-    padding-left: 20%;
-    padding-right:20%;
-     width:100%;
-     height:400px;
-     max-height: 400px; 
-     
+.textCenter {
+        text-align: center;
+}
+
+.hobbyBox{
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
 }
 
 /***********
